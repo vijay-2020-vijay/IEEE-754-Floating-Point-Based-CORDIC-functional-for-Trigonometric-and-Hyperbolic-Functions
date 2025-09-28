@@ -1,0 +1,335 @@
+
+*** Running vivado
+    with args -log trigono_cordic.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source trigono_cordic.tcl
+
+
+WARNING: Default location for XILINX_HLS not found
+
+*** Running vivado
+    with args -log trigono_cordic.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source trigono_cordic.tcl
+
+
+WARNING: Default location for XILINX_HLS not found
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Sun Sep 28 11:37:23 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source trigono_cordic.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 387.824 ; gain = 87.949
+Command: synth_design -top trigono_cordic -part xc7a200tsbg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [Synth 8-7075] Helper process launched with PID 604
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 866.652 ; gain = 474.883
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'exp_a', assumed default net type 'wire' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/addsubs.v:38]
+INFO: [Synth 8-11241] undeclared symbol 'exp_b', assumed default net type 'wire' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/addsubs.v:39]
+INFO: [Synth 8-11241] undeclared symbol 'perform', assumed default net type 'wire' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/addsubs.v:62]
+INFO: [Synth 8-6157] synthesizing module 'trigono_cordic' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:9]
+INFO: [Synth 8-6157] synthesizing module 'float_mu1' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/float_mu1.v:2]
+INFO: [Synth 8-6157] synthesizing module 'mult_men' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/float_mu1.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'mult_men' (0#1) [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/float_mu1.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'float_mu1' (0#1) [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/float_mu1.v:2]
+INFO: [Synth 8-6157] synthesizing module 'addsubs' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/addsubs.v:6]
+INFO: [Synth 8-6157] synthesizing module 'priority_encoder' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/addsubs.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'priority_encoder' (0#1) [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/addsubs.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'addsubs' (0#1) [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/addsubs.v:6]
+INFO: [Synth 8-6157] synthesizing module 'multi3' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/multi3.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'multi3' (0#1) [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/multi3.v:5]
+INFO: [Synth 8-6157] synthesizing module 'div1' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/div1.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Fixed_Point_Divider' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/div1.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'Fixed_Point_Divider' (0#1) [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/div1.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'div1' (0#1) [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/div1.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:96]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:310]
+INFO: [Synth 8-6155] done synthesizing module 'trigono_cordic' (0#1) [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:9]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 987.418 ; gain = 595.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 987.418 ; gain = 595.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tsbg484-2
+INFO: [Device 21-403] Loading part xc7a200tsbg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 987.418 ; gain = 595.648
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3936] Found unconnected internal register 'alpha_inv_reg' and it is trimmed from '32' to '31' bits. [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:164]
+WARNING: [Synth 8-3936] Found unconnected internal register 'alphai_reg' and it is trimmed from '32' to '31' bits. [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:162]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 987.418 ; gain = 595.648
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   25 Bit       Adders := 3     
+	   3 Input   25 Bit       Adders := 23    
+	   2 Input   24 Bit       Adders := 1     
+	   4 Input   10 Bit       Adders := 1     
+	   3 Input    8 Bit       Adders := 4     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    6 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
++---Registers : 
+	               32 Bit    Registers := 79    
+	               31 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input   65 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 20    
+	  16 Input   32 Bit        Muxes := 8     
+	   2 Input   30 Bit        Muxes := 1     
+	   2 Input   25 Bit        Muxes := 24    
+	   2 Input   24 Bit        Muxes := 3     
+	   2 Input   23 Bit        Muxes := 6     
+	   2 Input    8 Bit        Muxes := 3     
+	   2 Input    6 Bit        Muxes := 2     
+	  16 Input    6 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 2     
+	   9 Input    5 Bit        Muxes := 1     
+	  16 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 30    
+	  16 Input    1 Bit        Muxes := 23    
+	   9 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP r1/mul, operation Mode is: A*B.
+DSP Report: operator r1/mul is absorbed into DSP r1/mul.
+DSP Report: operator r1/mul is absorbed into DSP r1/mul.
+DSP Report: Generating DSP r1/mul, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator r1/mul is absorbed into DSP r1/mul.
+DSP Report: operator r1/mul is absorbed into DSP r1/mul.
+DSP Report: Generating DSP fm/r1/mul, operation Mode is: A*B2.
+DSP Report: register fm/r1/mul is absorbed into DSP fm/r1/mul.
+DSP Report: operator fm/r1/mul is absorbed into DSP fm/r1/mul.
+DSP Report: operator fm/r1/mul is absorbed into DSP fm/r1/mul.
+DSP Report: Generating DSP fm/r1/mul, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator fm/r1/mul is absorbed into DSP fm/r1/mul.
+DSP Report: operator fm/r1/mul is absorbed into DSP fm/r1/mul.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'state_reg[4]/Q' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:307]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:307]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:307]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:50 . Memory (MB): peak = 1309.789 ; gain = 918.020
+---------------------------------------------------------------------------------
+ Sort Area is  fm/r1/mul_3 : 0 0 : 3464 4778 : Used 1 time 0
+ Sort Area is  fm/r1/mul_3 : 0 1 : 1314 4778 : Used 1 time 0
+ Sort Area is  r1/mul_0 : 0 0 : 3446 4760 : Used 1 time 0
+ Sort Area is  r1/mul_0 : 0 1 : 1314 4760 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|mult_men    | A*B            | 25     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mult_men    | (PCIN>>17)+A*B | 25     | 8      | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multi3      | A*B2           | 25     | 18     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|mult_men    | (PCIN>>17)+A*B | 25     | 8      | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:51 . Memory (MB): peak = 1309.789 ; gain = 918.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:51 . Memory (MB): peak = 1309.789 ; gain = 918.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:56 . Memory (MB): peak = 1420.922 ; gain = 1029.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:56 . Memory (MB): peak = 1420.922 ; gain = 1029.152
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin state[3] with 1st driver pin 'state_reg[3]__0/Q' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin state[3] with 2nd driver pin 'state_reg[3]/Q' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:307]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin state[2] with 1st driver pin 'state_reg[2]__0/Q' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin state[2] with 2nd driver pin 'state_reg[2]/Q' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:307]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin state[1] with 1st driver pin 'state_reg[1]__0/Q' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin state[1] with 2nd driver pin 'state_reg[1]/Q' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:307]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin state[0] with 1st driver pin 'state_reg[0]__0/Q' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin state[0] with 2nd driver pin 'state_reg[0]/Q' [D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.srcs/sources_1/new/trigono_cordic.v:307]
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        4|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:56 . Memory (MB): peak = 1420.922 ; gain = 1029.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:56 . Memory (MB): peak = 1420.922 ; gain = 1029.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:56 . Memory (MB): peak = 1420.922 ; gain = 1029.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:56 . Memory (MB): peak = 1420.922 ; gain = 1029.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|mult_men    | A*B          | 24     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mult_men    | PCIN>>17+A*B | 24     | 7      | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multi3      | A*B''        | 24     | 17     | -      | -      | 48     | 0    | 2    | -    | -    | -     | 0    | 0    | 
+|mult_men    | PCIN>>17+A*B | 0      | 7      | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |   275|
+|3     |DSP48E1 |     4|
+|4     |LUT1    |    28|
+|5     |LUT2    |   207|
+|6     |LUT3    |   447|
+|7     |LUT4    |   567|
+|8     |LUT5    |   588|
+|9     |LUT6    |  1066|
+|10    |FDRE    |   623|
+|11    |FDSE    |    38|
+|12    |IBUF    |    36|
+|13    |OBUF    |   193|
++------+--------+------+
+
+Report Instance Areas: 
++------+----------+--------------------+------+
+|      |Instance  |Module              |Cells |
++------+----------+--------------------+------+
+|1     |top       |                    |  4073|
+|2     |  addsubb |addsubs             |   336|
+|3     |    pe    |priority_encoder    |   336|
+|4     |  d1      |div1                |  1948|
+|5     |    D1    |Fixed_Point_Divider |  1948|
+|6     |  fr      |float_mu1           |   465|
+|7     |    r1    |mult_men_1          |   465|
+|8     |  mult    |multi3              |   187|
+|9     |    fm    |float_mu1_0         |    61|
+|10    |      r1  |mult_men            |    49|
++------+----------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:56 . Memory (MB): peak = 1420.922 ; gain = 1029.152
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 11 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:56 . Memory (MB): peak = 1420.922 ; gain = 1029.152
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:56 . Memory (MB): peak = 1420.922 ; gain = 1029.152
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 1434.945 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 279 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1556.344 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 201b9bac
+INFO: [Common 17-83] Releasing license: Synthesis
+33 Infos, 12 Warnings, 11 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:01:10 . Memory (MB): peak = 1556.344 ; gain = 1168.520
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.130 . Memory (MB): peak = 1556.344 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/verilog_11/project_16trigono_cordic/project_16trigono_cordic.runs/synth_1/trigono_cordic.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file trigono_cordic_utilization_synth.rpt -pb trigono_cordic_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Sep 28 11:39:29 2025...
